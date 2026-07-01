@@ -1,3 +1,8 @@
+/*
+ * eyas_crypt.h
+ * author: @cocomelonc
+ * https://cocomelonc.github.io
+*/
 #ifndef EYAS_CRYPT_H
 #define EYAS_CRYPT_H
 

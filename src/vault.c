@@ -1,3 +1,8 @@
+/*
+ * vault.c
+ * author: @cocomelonc
+ * https://cocomelonc.github.io
+*/
 #include "eyas_crypt.h"
 
 #include <stdio.h>
