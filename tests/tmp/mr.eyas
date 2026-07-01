@@ -1,0 +1,16 @@
+EYASCRYPT1
+version=5
+cipher=chacha20
+mac=hmac-sha256
+kdf=pbkdf2-sha256
+policy=multi-recipient
+iter=200000
+nonce=a0acd5fc6ef1758f090fd444
+size=40
+recipients=3
+slot=6c857c4bf3fff358bed2fa02a90052a3:59dec0bafa5a9910981e0c18:d8047ff3fa80c0532a71ebd70a37018734e7ec2e9273eaf9f4434e6d6c4b665d
+slot=525a55ea953220c0936f1c25d1bcf315:eb6746d217ed63651797b92c:3ca811fb0d839b62e9033b1cd170578700136c01b7fee2cc55e606aba3725965
+slot=6ebe76a54f7a3b00bbb9a2a54e459ec2:274b651556f5f546ad73d773:38189915eee77e3d657c553439f01ad3bd940de84945bdee5a31abf2d6bd4a73
+tag=832ec99c42c74c3aae50354dbc4d67e5d7eb0bd30fde940483f08c45a2df70ce
+
+í1I%°â¢£ÜÚÓ˜¥êAb\Óä‹¥ºE€–<çi9àïD5◊

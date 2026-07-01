@@ -1,0 +1,16 @@
+EYASCRYPT1
+version=2
+cipher=chacha20
+mac=hmac-sha256
+kdf=pbkdf2-sha256
+policy=passphrase+device-key
+iter=200000
+salt=66be11a17e5e13b0ca35998a57570abb
+nonce=d02b295c47ffc80f4e6e15e4
+size=40
+device_id=ac1290ace86502b483f0f98dae74d70f94ec832caf631f1890a1333b649bf49a
+wrap_nonce=f7664c24bb95a19cc0178e3d
+wrapped_key=3c32ee170ee28b94548fb153e1128160b19a3947c11710c3d717fcd5066a41db
+tag=c811ead1584590acf34ecf3fcb77bb740be88d8e8da5d91f1dc90b10fb541bf4
+
+X^RÅªE¿Ð`Ž–ã=ß…Á¨„íç]pg|êtî›Ð‚&[n
