@@ -5,12 +5,12 @@ mac=hmac-sha256
 kdf=pbkdf2-sha256
 policy=passphrase+device-key
 iter=200000
-salt=66be11a17e5e13b0ca35998a57570abb
-nonce=d02b295c47ffc80f4e6e15e4
+salt=cba46b899f661efc2a6c6072fb088c54
+nonce=90c516f822103e12c1fcba52
 size=40
-device_id=ac1290ace86502b483f0f98dae74d70f94ec832caf631f1890a1333b649bf49a
-wrap_nonce=f7664c24bb95a19cc0178e3d
-wrapped_key=3c32ee170ee28b94548fb153e1128160b19a3947c11710c3d717fcd5066a41db
-tag=c811ead1584590acf34ecf3fcb77bb740be88d8e8da5d91f1dc90b10fb541bf4
+device_id=9aadf5a285e8052a71a479abe9b5c35c9d15a30428779501de78de2828f708e1
+wrap_nonce=b5b43f29051e11ed254a3255
+wrapped_key=bfd13cb0f5de18107e300926ab0f88ae2fcee550d131116d07503b6d5d6e8d5b
+tag=d0261437c595400b86913bb6202990d75cd5005128176464c25b88b920073a7b
 
-X^RÅªE¿Ð`Ž–ã=ß…Á¨„íç]pg|êtî›Ð‚&[n
+äX	Þ‹¾%„Tn–LNC:²ë²Þèå¿þnQ¹¼æ!««=èï^3

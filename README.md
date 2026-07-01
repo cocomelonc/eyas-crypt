@@ -23,13 +23,57 @@ mount driver, no admin rights, no FUSE - just a self-contained binary.
 
 ### build
 
+compiling for linux:     
+
 ```bash
 make
+```
+
+![img](./img/2026-07-01_15-20.png)    
+
+compiling Windows binary:     
+
+```bash
 make win64
+```
+
+![img](./img/2026-07-01_15-21.png)    
+
+make tests:    
+
+```bash
 make test
 ```
 
+![img](./img/2026-07-01_15-21_1.png)    
+
 ### CLI
+
+encrypt:     
+
+```bash
+./build/eyas-crypt seal secret.pdf secret.eyas --pass 'demo passphrase'
+```
+
+![img](./img/2026-07-01_15-40.png)    
+
+info:     
+
+```bash
+./build/eyas-crypt info secret.eyas
+```
+
+![img](./img/2026-07-01_15-41.png)    
+
+decrypt:    
+
+```bash
+./build/eyas-crypt open secret.eyas recovered.pdf --pass 'demo passphrase'
+```
+
+![img](./img/2026-07-01_15-42.png)    
+
+another examples:    
 
 ```bash
 ./build/eyas-crypt seal secret.pdf secret.eyas --pass 'demo passphrase'
@@ -40,6 +84,7 @@ make test
 ./build/eyas-crypt seal secret.pdf secret.eyas --pass 'demo passphrase' --device laptop.key
 ./build/eyas-crypt open secret.eyas recovered.pdf --pass 'demo passphrase' --device laptop.key
 ```
+
 
 Split-key (any 2 of 3 shares + passphrase reconstruct the vault):    
 
@@ -87,6 +132,8 @@ Deniable hidden vault (two passphrases, one container):
 ```
 
 Open `http://127.0.0.1:8765/`.
+
+![img](./img/2026-07-01_15-45.png)    
 
 ### design
 
